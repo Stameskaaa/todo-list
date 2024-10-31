@@ -1,0 +1,27 @@
+.inner_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation_bar {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.596);
+}
+
+.navigation_bar ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.navigation_bar ul li a {
+  padding: 5px;
+}
+
+.active {
+  color: white;
+  border-bottom: 2px solid rgb(70, 70, 214);
+}

@@ -1,0 +1,22 @@
+.out_wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px;
+  background-color: #282877ab;
+  border-radius: 15px;
+  gap: 10px;
+}
+
+.container button {
+  background-color: #3434afab;
+  font-size: 16px;
+}
